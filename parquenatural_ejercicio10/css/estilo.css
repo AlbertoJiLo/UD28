@@ -1,0 +1,58 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 900px;
+    border-radius:20px;
+    border:#d3d3d3 1px solid;
+    margin:10px autoM
+}
+h1{
+    color:darkgreen;
+    text-align:center;
+    letter-spacing: 0.2em;
+}
+h1 span{
+    color:brown;
+}
+h2{
+    color:green;
+    border-bottom:rgb(75, 91, 11) 1px solid;
+}
+h3{
+    color:rgb(236, 102, 53)
+}
+div.zonaenmarcado{
+    background: rgb(145,145,145);
+    background: linear-gradient(180deg, rgba(145,145,145,1) 0%, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 100%); 
+    border:#d3d3d3 1px solid;
+    margin:10px 10px 10px 180px;
+}
+div.menu{
+    float:left;
+    width: 150px;
+}
+li{
+    background: rgb(151,255,127);
+    background: linear-gradient(180deg, rgba(151,255,127,1) 0%, rgba(150,255,128,1) 0%, rgba(255,255,255,1) 100%);
+    border:1px solid;
+    text-align:center;
+    color:black;
+    display: block;
+    line-height: 30px;
+    background-position:bottom left;
+    background-repeat:unset;
+    margin-right: 0.2em;
+    margin-bottom: 0.2em;
+    padding: 0.3em;
+}
+li:hover{
+    background: white;
+}
+.seleccionada{
+    background: rgb(195, 167, 81);
+}
+pie{
+    font-size:small;
+    color:grey;
+    font-style:oblique;
+    text-align: center;
+}
